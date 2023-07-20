@@ -1,0 +1,11 @@
+p{
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+}
+header{
+        text-align: center;
+        color: rgb(251, 5, 5);
+        size: 100px;
+        text-decoration: dotted;
+}

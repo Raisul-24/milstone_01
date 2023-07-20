@@ -1,0 +1,269 @@
+/* shearing */
+body {
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+
+        font-style: normal;
+        line-height: normal;
+        width: 100%;
+        height: auto;
+}
+
+.btn-primary {
+        border-radius: 8px;
+        background: #E55473;
+        padding: 20px 43px;
+        color: #FFF;
+        font-size: 20px;
+        display: inline-flex;
+        align-items: flex-start;
+}
+
+/* first section */
+.first {
+
+        background: rgba(229, 84, 115, 0.10);
+        max-width: 1920;
+        max-height: 850px;
+}
+
+.first-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 90px;
+}
+
+.first-info {
+        margin: 150px 0px 32px 100px;
+}
+
+.first-info-title {
+        color: #272727;
+        font-size: 55px;
+        font-weight: 800;
+}
+
+.first-info-description {
+        color: rgba(39, 39, 39, 0.60);
+        font-weight: 400;
+
+}
+
+.first-image {
+        padding-top: 50px;
+        max-width: 635;
+        max-height: 800px;
+        padding-right: 70px;
+}
+
+/* section two(features) */
+.two {
+        padding-top: 178px;
+        background: #FFF;
+        margin-bottom: 128px;
+        margin: 0px 100px;
+}
+
+
+.two-title {
+        color: #272727;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 24px;
+}
+
+.two-description {
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 48px;
+}
+
+.two-flower-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+}
+
+.two-flower-images {
+        border-radius: 300px 300px 0px 0px;
+        max-width: 420px;
+        max-height: 538px;
+}
+
+.two-flower-images-title {
+        color: #272727;
+        text-align: center;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px;
+        text-decoration-line: underline;
+}
+
+/* section three */
+.three {
+        border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05);
+        margin: 168px 75px;
+}
+
+.three-container {
+        display: flex;
+        justify-content: space-around;
+        height: 320px;
+        align-items: center;
+}
+
+.three-img {
+        height: 88px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.three-description {
+        color: rgba(39, 39, 39, 0.80);
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 35px;
+}
+
+/* section four */
+.four {
+        display: flex;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+        justify-content: space-around;
+}
+
+.four-item-title {
+        color: #272727;
+        font-size: 30px;
+        font-weight: 800;
+        margin: 230px 185px 24px 223px;
+}
+
+.four-item-description {
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 32px;
+}
+
+.four-img {
+        margin: 100px 229px 100px 0px;
+}
+
+
+/* section five(instragram) */
+.five {
+        background: #FFF;
+        margin-top: 128px;
+}
+
+.instragram-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 48px 75px;
+        gap: 14px;
+}
+
+.instragram-item {
+        max-height: 346px;
+}
+
+
+/* section six */
+.six {
+        border-radius: 8px;
+        height: 449px;
+        background-image: url('flower/Rectangle\ 9.png');
+        margin: 128px 75px;
+        padding-top: 50px;
+        background-repeat: no-repeat;
+}
+
+.six-title {
+        color: #272727;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+}
+
+.six-emial {
+        margin: 0px 47px 121px 287px;
+        border-radius: 8px;
+        background: #FFF;
+        color: rgba(39, 39, 39, 0.60);
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        width: 40%;
+        height: 64px;
+        padding-left: 20px;
+}
+
+/* extra part  */
+.half-width {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding: 2%;
+}
+
+.extra-banner {
+        background-repeat: no-repeat;
+        background-image: url("flower/top-banner.png");
+        padding-bottom: 300px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+        display: block;
+        margin-bottom: 10px;
+        padding: 18px 35px;
+        background-color: #FFF;
+        border-radius: 10px;
+}
+
+.extra-first-image {
+        padding-top: 150px;
+        width: 100%;
+}
+
+/* footer part */
+footer {
+        background: #111010;
+        height: 449px;
+}
+
+.footer-title {
+        color: #FFFFFF;
+        font-size: 48px;
+        font-weight: 800;
+        padding: 128px 531px 10px;
+        text-align: center;
+}
+
+.footer-description {
+        color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+}
+
+.footer-contact {
+        color: rgba(255, 255, 255, 0.40);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+}
